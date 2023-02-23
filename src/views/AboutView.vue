@@ -1,7 +1,9 @@
 <template>
+  <body class="bg-green-500">
   <div class="about">
     <h1>This is an about page</h1>
   </div>
+  </body>
 </template>
 
 <style>

@@ -1,30 +1,15 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
 import HelloWorld from "./components/HelloWorld.vue";
+import cabeza from "./components/header.vue"
 </script>
 
 <template>
-  <header>
-    <img
-      alt="Vue logo"
-      class="logo"
-      src="@/assets/logo.svg"
-      width="125"
-      height="125"
-    />
-
-    <div class="wrapper">
-      <HelloWorld msg="Personajes de Rick & Morty" />
-
-      <nav>
-        <RouterLink to="/">Inicio</RouterLink>
-        <RouterLink to="/personajes">Personajes</RouterLink>
-        <RouterLink to="/about">Acerca de</RouterLink>
-      </nav>
-    </div>
-  </header>
+  <body class="bg-green-500">
+  <cabeza/>
 
   <RouterView />
+  </body>
 </template>
 
 <style scoped>
