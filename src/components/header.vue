@@ -8,7 +8,7 @@
       height="250"
     />
 
-    <div class="wrapper p-10 text-right text-3xl text-green-500 font-black font-mono shadow-black">
+    <div class="wrapper p-10 text-right text-3xl text-green-500 font-black font-mono shadow-black mt-3">
       <nav>
         <RouterLink to="/" class="mr-5 ml-14 p-10">Inicio</RouterLink>
         <RouterLink to="/personajes" class="mr-5 p-10">Personajes</RouterLink>
