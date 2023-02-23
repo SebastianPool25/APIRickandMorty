@@ -3,10 +3,11 @@ import Personajes from "../components/Personajes.vue";
 </script>
 
 <template>
-  <body class="bg-green-500">
+  <body class="bg-green-500 p-7 mx-5 my-5 font-mono grid grid-cols-2 gap-2">
+    <div>
+      
+    </div>
   <div>
-    <h1>Personajes del programa</h1>
-
     <Personajes />
   </div>
   </body>

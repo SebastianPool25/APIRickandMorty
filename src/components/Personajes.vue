@@ -41,10 +41,13 @@ export default {
 
 <template>
   <h2>Hay {{ info.count }} personajes en el programa de Rick & Morty</h2>
-  <button @click="pag(cont)">página {{ cont }}</button>
-  <ul>
+  <br>
+  <ul class="pl-5">
     <li v-for="p in personajes">
-      <a >{{ p.name }} id:{{ p.id }}</a> 
+      <button @click="" class="my-2">{{ p.name }}</button>
     </li>
   </ul>
+  <button @click="pag (cont - 1)" class="my-5 bg-green-200 rounded-lg text-lg">Regresar</button>
+  <button>{{ count }}</button>
+  <button @click="pag(cont)" class="my-5 bg-green-200 rounded-lg text-lg">Siguiente</button>
 </template>
