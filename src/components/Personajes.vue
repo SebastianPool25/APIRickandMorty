@@ -47,7 +47,7 @@ export default {
       <button @click="" class="my-2">{{ p.name }}</button>
     </li>
   </ul>
-  <button @click="pag (cont - 1)" class="my-5 bg-green-200 rounded-lg text-lg">Regresar</button>
+  <button @click="pag (cont - 1)" class="my-5 bg-green-200 rounded-lg text-lg mx-5">Regresar</button>
   <button>{{ count }}</button>
-  <button @click="pag(cont)" class="my-5 bg-green-200 rounded-lg text-lg">Siguiente</button>
+  <button @click="pag(cont)" class="my-5 bg-green-200 rounded-lg text-lg mx-5">Siguiente</button>
 </template>
